@@ -1,0 +1,158 @@
+{
+            "kind": "youtube#commentThread",
+            "etag": "6fiP3ww6sXsnQS5ued0WTvrbdSQ",
+            "id": "Ugwk7_v4kDs7ZTDro1h4AaABAg",
+            "snippet": {
+                "channelId": "UC6uoKq17fw_iHCu2zvwa5vQ",
+                "videoId": "rcv2cTMmGOg",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "yaejYiknX5oanr1BTDKU3sq8Ps8",
+                    "id": "Ugwk7_v4kDs7ZTDro1h4AaABAg",
+                    "snippet": {
+                        "channelId": "UC6uoKq17fw_iHCu2zvwa5vQ",
+                        "videoId": "rcv2cTMmGOg",
+                        "textDisplay": "Eyebrow oil epo restock pannuvinga",
+                        "textOriginal": "Eyebrow oil epo restock pannuvinga",
+                        "authorDisplayName": "@theebar7942",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nlmBuGU4iERY4X1j6XSySiowehqRN0M8suzZFwYhfa-A=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@theebar7942",
+                        "authorChannelId": {
+                            "value": "UCAJefALXuqt4D0bz5A7W3TA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2024-05-03T10:52:36Z",
+                        "updatedAt": "2024-05-03T10:52:36Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+
+
+
+
+
+
+
+
+
+
+         "items": [
+        {
+            "kind": "youtube#commentThread",
+            "etag": "XQQ-XraFukoPXSO3hNIoKnJdaHE",
+            "id": "UgwelmK23UZady56IdF4AaABAg",
+            "snippet": {
+                "channelId": "UCdpaYm53cdH0SODoBXAKRmQ",
+                "videoId": "0UenGLJhWJY",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "6j07nyyDzLdqszICNlsI9d_Oj8E",
+                    "id": "UgwelmK23UZady56IdF4AaABAg",
+                    "snippet": {
+                        "channelId": "UCdpaYm53cdH0SODoBXAKRmQ",
+                        "videoId": "0UenGLJhWJY",
+                        "textDisplay": "Testing",
+                        "textOriginal": "Testing",
+                        "authorDisplayName": "@hariprasanths2973",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lRX1TJwiYpkpcWq7KFdgCN3mRmC8IwA6tSQiLSrrqU840=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@hariprasanths2973",
+                        "authorChannelId": {
+                            "value": "UCiC2uHijxpQMdqQxsucWafw"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2024-05-04T11:54:29Z",
+                        "updatedAt": "2024-05-04T11:54:29Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 1,
+                "isPublic": true
+            },
+            "replies": {
+                "comments": [
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "EZ4mvfMl9KrbSBVHzj8oPH5zmmw",
+                        "id": "UgwelmK23UZady56IdF4AaABAg.A30QgRWkBnNA30QtXJWaSC",
+                        "snippet": {
+                            "channelId": "UCdpaYm53cdH0SODoBXAKRmQ",
+                            "videoId": "0UenGLJhWJY",
+                            "textDisplay": "Hello",
+                            "textOriginal": "Hello",
+                            "parentId": "UgwelmK23UZady56IdF4AaABAg",
+                            "authorDisplayName": "@hariprasanths2973",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lRX1TJwiYpkpcWq7KFdgCN3mRmC8IwA6tSQiLSrrqU840=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@hariprasanths2973",
+                            "authorChannelId": {
+                                "value": "UCiC2uHijxpQMdqQxsucWafw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2024-05-04T11:56:17Z",
+                            "updatedAt": "2024-05-04T11:56:17Z"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+
+
+
+
+
+    // async function performActions() {
+//   const askForVideoId = async () => {
+//     console.log('---------------------------------------------------'); // Repeat the question after processing
+// console.log('')
+//     rl.question('Enter a YouTube video ID to fetch comments or type "exit" to quit: ', async (input) => {
+//       if (input.toLowerCase() === 'exit') {
+//         console.log('Exiting the program.');
+//         rl.close();  // Close the readline interface and exit
+//         return;
+//       }
+
+//       try {
+//         const youtube = google.youtube({ version: 'v3', auth: oauth2Client });
+//         const response = await youtube.commentThreads.list({
+//           part: 'snippet',
+//           videoId: input,
+//           maxResults: 100,
+//           textFormat: 'plainText'
+//         });
+
+//         const comments = response.data.items;
+//         const restrictedWords = ['testing']; // Add your list of restricted words
+//        for (let commentThread of comments) {
+//     const comment = commentThread.snippet.topLevelComment.snippet;
+//     const commentId = commentThread.snippet.topLevelComment.id
+//     const commentText = comment.textDisplay;
+//     const restricted =restrictedWords.some(word => commentText.includes(word))
+//     restricted?console.log("Restricted comment",  commentText ):console.log(commentText)
+//     console.log();
+//     const channelId = comment.authorChannelId.value;
+
+//     // Example check: if the channelId matches and comment contains restricted words
+//     if (restrictedWords.some(word => commentText.includes(word))) {
+//       await youtube.comments.delete({ id: commentId });
+//       console.log(`Deleted comment: ${commentText}`);
+//     }
+//   }
+//       } catch (error) {
+//         console.error('Error during API request:', error);
+//       }
+
+//     });
+//   };
+
+//   askForVideoId();  // Initial call to start the loop
+// }
