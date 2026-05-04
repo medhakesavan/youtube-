@@ -4,6 +4,7 @@ const channelSchema = new mongoose.Schema({
   channelId: { type: String, required: true, unique: true },
   title: String,
   customUrl: String,
+  thumbnailUrl: String,
   accessToken: String,
   refreshToken: String,
   expiryDate: Number,

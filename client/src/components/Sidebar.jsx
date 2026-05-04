@@ -10,8 +10,8 @@ import {
 const Sidebar = ({ activeTab, setActiveTab }) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboardIcon },
+    { id: 'channels', label: 'Channels', icon: ShieldCheckIcon },
     { id: 'moderation', label: 'Moderation', icon: ShieldAlertIcon },
-    { id: 'comments', label: 'All Comments', icon: MessageSquareIcon },
     { id: 'settings', label: 'Settings', icon: SettingsIcon },
   ];
 
@@ -21,7 +21,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
         <div className="bg-indigo-600 p-2 rounded-xl">
           <ShieldCheckIcon className="text-white" size={24} />
         </div>
-        <span className="text-xl font-bold tracking-tight text-white">ModAI</span>
+        <span className="text-xl font-bold tracking-tight text-white">youtubeAI</span>
       </div>
 
       <nav className="flex-1 px-4 py-6 space-y-2">

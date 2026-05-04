@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 import cron from 'node-cron';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 import logger from './log.mjs';
 import { getYouTubeClient, getYouTubeAuth, fetchLatestComments, likeComment } from './services/youtubeService.mjs';
 import { classifyComment } from './services/aiService.mjs';
@@ -15,7 +16,9 @@ import Channel from './models/Channel.mjs';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-dotenv.config({ path: path.join(__dirname, '.env') });
+// Production-grade .env loader
+const envPath = path.resolve(__dirname, '.env');
+dotenv.config({ path: envPath });
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -26,20 +29,17 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/yt-moderator';
-logger.info(`Attempting to connect to MongoDB: ${MONGODB_URI.split('@').pop()}`);
+const MONGODB_URI = process.env.MONGODB_URI;
 
-mongoose.connect(MONGODB_URI)
-  .then(() => logger.info('MongoDB Connected'))
-  .catch(err => logger.error('MongoDB Connection Error:', err));
-
-// YouTube OAuth Setup Check
-if (!process.env.GOOGLE_CLIENT_ID) {
-  logger.error('CRITICAL ERROR: GOOGLE_CLIENT_ID is missing from .env file!');
-} else {
-  logger.info(`Google Client ID detected: ${process.env.GOOGLE_CLIENT_ID.substring(0, 10)}...`);
+if (!MONGODB_URI) {
+  logger.error('CRITICAL: MONGODB_URI is missing from .env!');
 }
 
+mongoose.connect(MONGODB_URI || 'mongodb://localhost:27017/yt-moderator')
+  .then(() => logger.info('MongoDB Connected Successfully'))
+  .catch(err => logger.error('MongoDB Connection Error:', err));
+
+// YouTube OAuth Setup (restarting to pick up env)
 const oauth2Client = getYouTubeAuth();
 
 // Routes
@@ -51,6 +51,7 @@ app.get('/auth', (req, res) => {
     prompt: 'consent',
     scope: ['https://www.googleapis.com/auth/youtube.force-ssl'],
   });
+  logger.info(`Sending OAuth request with redirect URI: ${process.env.REDIRECT_URI}`);
   res.redirect(authUrl);
 });
 
@@ -58,6 +59,7 @@ app.get('/oauth', (req, res) => res.redirect('/auth'));
 
 app.get('/auth/callback', async (req, res) => {
   try {
+    logger.info(`OAuth callback hit with code: ${req.query.code ? 'PRESENT' : 'MISSING'}`);
     const { tokens } = await oauth2Client.getToken(req.query.code);
     oauth2Client.setCredentials(tokens);
 
@@ -70,6 +72,7 @@ app.get('/auth/callback', async (req, res) => {
       {
         channelId: channelData.id,
         title: channelData.snippet.title,
+        thumbnailUrl: channelData.snippet.thumbnails.default.url,
         accessToken: tokens.access_token,
         refreshToken: tokens.refresh_token,
         expiryDate: tokens.expiry_date,
@@ -77,17 +80,40 @@ app.get('/auth/callback', async (req, res) => {
       { upsert: true }
     );
 
-    res.send('Authentication successful! You can close this tab.');
+    // Redirect back to frontend
+    res.redirect('http://localhost:5173/?connected=true');
     processComments(channelData.id, tokens);
   } catch (error) {
     logger.error('OAuth Callback Error:', error);
-    res.status(500).send('Authentication failed');
+    res.redirect('http://localhost:5173/?error=auth_failed');
   }
 });
 
 // API Routes for Dashboard
+app.get('/api/youtube/channels', async (req, res) => {
+  try {
+    const channels = await Channel.find().select('title channelId thumbnailUrl');
+    res.json(channels);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.post('/api/youtube/disconnect', async (req, res) => {
+  try {
+    const { channelId } = req.body;
+    await Channel.findOneAndDelete({ channelId });
+    res.json({ success: true, message: 'Disconnected successfully' });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 app.get('/api/comments', async (req, res) => {
   try {
+    if (mongoose.connection.readyState !== 1) {
+      return res.status(503).json({ error: 'Database not connected yet.' });
+    }
     const { status, sentiment } = req.query;
     const query = {};
     if (status) query.status = status;
@@ -106,8 +132,11 @@ app.post('/api/comments/:id/action', async (req, res) => {
     const comment = await Comment.findById(req.params.id);
     if (!comment) return res.status(404).send('Comment not found');
 
-    const channel = await Channel.findOne({ channelId: process.env.CHANNEL_ID });
-    const youtube = getYouTubeClient({ access_token: channel.accessToken, refresh_token: channel.refreshToken });
+    const channel = await Channel.findOne();
+    const youtube = getYouTubeClient({ 
+      access_token: channel.accessToken, 
+      refresh_token: channel.refreshToken 
+    });
 
     if (action === 'approve') {
       comment.status = 'approved';
@@ -127,7 +156,6 @@ app.post('/api/comments/:id/action', async (req, res) => {
 async function processComments(channelId, tokens) {
   try {
     const youtube = getYouTubeClient(tokens);
-    const channel = await Channel.findOne({ channelId });
     const comments = await fetchLatestComments(youtube, channelId);
 
     for (const c of comments) {
@@ -144,54 +172,15 @@ async function processComments(channelId, tokens) {
         status: aiResult.sentiment === 'toxic' ? 'flagged' : 'pending'
       });
 
-      const confidence = aiResult.confidence;
-      const threshold = channel?.settings?.confidenceThreshold || 0.85;
-
-      if (confidence >= threshold) {
-        if (aiResult.sentiment === 'positive' && channel?.settings?.autoLikePositive) {
-          await likeComment(youtube, c.youtubeId);
-          newComment.aiActionTaken = true;
-          
-          if (channel?.settings?.autoReplyPositive) {
-            try {
-              await youtube.comments.insert({
-                part: 'snippet',
-                requestBody: {
-                  snippet: {
-                    parentId: c.youtubeId,
-                    textOriginal: channel.settings.autoReplyMessage || 'Thanks for the great comment!'
-                  }
-                }
-              });
-              logger.info(`Auto-replied to comment: ${c.youtubeId}`);
-            } catch (err) {
-              logger.error('Auto-reply failed:', err);
-            }
-          }
-        }
-
-        if (aiResult.sentiment === 'toxic' && confidence >= 0.90) {
-          try {
-            await youtube.comments.delete({ id: c.youtubeId });
-            newComment.status = 'deleted';
-            newComment.aiActionTaken = true;
-            logger.info(`Auto-deleted high-confidence toxic comment: ${c.youtubeId}`);
-          } catch (err) {
-            logger.error('Auto-delete failed:', err);
-          }
-        }
-      }
-
       await newComment.save();
     }
-    logger.info(`Processed ${comments.length} comments for channel ${channelId}`);
   } catch (error) {
     logger.error('Error processing comments:', error);
   }
 }
 
+// Scheduled check
 cron.schedule('*/5 * * * *', async () => {
-  logger.info('Running scheduled comment check...');
   const channels = await Channel.find();
   for (const channel of channels) {
     processComments(channel.channelId, {
