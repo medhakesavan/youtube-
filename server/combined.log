@@ -952,3 +952,9 @@
 {"level":"info","message":"MongoDB Connected Successfully"}
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"error","message":"OAuth Callback Error: Cannot read properties of undefined (reading '0')","stack":"TypeError: Cannot read properties of undefined (reading '0')\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:68:46\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}

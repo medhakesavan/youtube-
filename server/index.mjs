@@ -65,7 +65,11 @@ app.get('/api/youtube/callback', async (req, res) => {
 
     const youtube = getYouTubeClient(tokens);
     const channelRes = await youtube.channels.list({ part: 'snippet', mine: true });
-    const channelData = channelRes.data.items[0];
+    const channelDataItems = channelRes.data.items;
+    if (!channelDataItems || channelDataItems.length === 0) {
+      throw new Error('No YouTube channel found for this Google account. Please create a YouTube channel first.');
+    }
+    const channelData = channelDataItems[0];
 
     await Channel.findOneAndUpdate(
       { channelId: channelData.id },
