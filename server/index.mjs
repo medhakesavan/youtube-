@@ -57,7 +57,7 @@ app.get('/auth', (req, res) => {
 
 app.get('/oauth', (req, res) => res.redirect('/auth'));
 
-app.get('/auth/callback', async (req, res) => {
+app.get('/api/youtube/callback', async (req, res) => {
   try {
     logger.info(`OAuth callback hit with code: ${req.query.code ? 'PRESENT' : 'MISSING'}`);
     const { tokens } = await oauth2Client.getToken(req.query.code);
