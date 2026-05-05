@@ -893,3 +893,39 @@
 {"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
 {"level":"info","message":"Server running on port 5000"}
 {"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/auth/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
