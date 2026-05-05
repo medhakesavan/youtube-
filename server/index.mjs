@@ -81,11 +81,11 @@ app.get('/api/youtube/callback', async (req, res) => {
     );
 
     // Redirect back to frontend
-    res.redirect('http://localhost:5173/?connected=true');
+    res.redirect('https://youtube-peach-alpha.vercel.app/?connected=true');
     processComments(channelData.id, tokens);
   } catch (error) {
     logger.error('OAuth Callback Error:', error);
-    res.redirect('http://localhost:5173/?error=auth_failed');
+    res.redirect('https://youtube-peach-alpha.vercel.app/?error=auth_failed');
   }
 });
 
