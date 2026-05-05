@@ -977,3 +977,12 @@
 {"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
 {"level":"info","message":"OAuth callback hit with code: PRESENT"}
 {"level":"error","message":"OAuth Callback Error: No YouTube channel found for this Google account. Please create a YouTube channel first.","stack":"Error: No YouTube channel found for this Google account. Please create a YouTube channel first.\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:70:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"error","message":"OAuth Callback Error: No YouTube channel found for this Google account. Please create a YouTube channel first.","stack":"Error: No YouTube channel found for this Google account. Please create a YouTube channel first.\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:70:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"error","message":"OAuth Callback Error: No YouTube channel found for this Google account. Please create a YouTube channel first.","stack":"Error: No YouTube channel found for this Google account. Please create a YouTube channel first.\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:70:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"error","message":"OAuth Callback Error: No YouTube channel found for this Google account. Please create a YouTube channel first.","stack":"Error: No YouTube channel found for this Google account. Please create a YouTube channel first.\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:70:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
