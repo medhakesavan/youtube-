@@ -16,37 +16,22 @@ const getOpenAI = () => {
   return openai;
 };
 
+import { moderateComment } from './aiModerationService.mjs';
+
+/**
+ * Legacy wrapper for the new advanced moderation service.
+ * Ensures compatibility with existing routes while upgrading detection logic.
+ */
 export const classifyComment = async (text) => {
-  const client = getOpenAI();
-  if (!client) {
-    logger.warn('OpenAI API Key missing or invalid, skipping classification.');
-    return { sentiment: 'neutral', toxicityScore: 0, confidence: 0 };
-  }
-
-  try {
-    const response = await client.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [
-        {
-          role: "system",
-          content: "You are an AI moderator. Classify the following YouTube comment. Provide: 1) Sentiment (positive, neutral, toxic), 2) Toxicity score (0-1), 3) Confidence (0-1). Return JSON only."
-        },
-        {
-          role: "user",
-          content: text
-        }
-      ],
-      response_format: { type: "json_object" }
-    });
-
-    const result = JSON.parse(response.choices[0].message.content);
-    return {
-      sentiment: result.sentiment || 'neutral',
-      toxicityScore: result.toxicityScore || 0,
-      confidence: result.confidence || 0
-    };
-  } catch (error) {
-    logger.error('AI Classification error:', error);
-    return { sentiment: 'neutral', toxicityScore: 0, confidence: 0 };
-  }
+  const result = await moderateComment(text);
+  
+  return {
+    sentiment: result.sentiment,
+    category: result.reason, // Map 'reason' to 'category' for DB compatibility
+    toxicityScore: result.sentiment === 'toxic' ? result.confidence : 0,
+    confidence: result.confidence,
+    severity: result.severity,
+    keywords: result.keywords,
+    model: result.model
+  };
 };

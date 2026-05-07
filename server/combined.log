@@ -986,3 +986,1007 @@
 {"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
 {"level":"info","message":"OAuth callback hit with code: PRESENT"}
 {"level":"error","message":"OAuth Callback Error: No YouTube channel found for this Google account. Please create a YouTube channel first.","stack":"Error: No YouTube channel found for this Google account. Please create a YouTube channel first.\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:70:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Sending OAuth request with redirect URI: https://youtube-peach-alpha.vercel.app/api/youtube/callback"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"info","message":"Channel connected: Medha Kesavan (UCToFXVJ72EF6LPVXEDsyCKw)"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"info","message":"Channel connected: Medha Kesavan (UCToFXVJ72EF6LPVXEDsyCKw)"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"OAuth callback hit with code: PRESENT"}
+{"level":"info","message":"Channel connected: Medha Kesavan (UCToFXVJ72EF6LPVXEDsyCKw)"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"No new comments found for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_e05a635d4e649ac3ac31285383796384","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:208:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:394:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:234:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:262:7)","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_b5a99a48b29d4c0fae7cfaf865afcd5a","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:208:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:394:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:234:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:262:7)","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_5d78abe2ab99403bb44c299398841da3","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:208:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:394:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:234:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:262:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 3 comments, saved 3 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 3 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 3 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 3 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 3 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 3 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_1c1e293d1e0149ee9775ceace56cc9c7","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:208:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:394:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:344:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:372:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 4 comments, saved 1 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 4 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 4 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 4 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 4 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_eb8ec11241de46a695bb1099c0f6eab0","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:416:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:444:7)","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_eefdb46a29644e5b8ecbcf9f3290b141","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:416:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:444:7)","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_26694678aa5d46fd8b4d8589547c23d6","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:416:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:444:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 7 comments, saved 3 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"cause":{"beforeHandshake":false,"errorLabelSet":{}},"errorLabelSet":{},"level":"error","message":"GET /api/youtube/channels error: getaddrinfo ENOTFOUND ac-po6kagr-shard-00-00.p1pbev5.mongodb.net","reason":{"commonWireVersion":25,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":{"$oid":"7fffffff000000000000025d"},"maxSetVersion":318,"servers":{"ac-po6kagr-shard-00-00.p1pbev5.mongodb.net:27017":{"$clusterTime":null,"address":"ac-po6kagr-shard-00-00.p1pbev5.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":3672498,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-po6kagr-shard-00-01.p1pbev5.mongodb.net:27017":{"$clusterTime":null,"address":"ac-po6kagr-shard-00-01.p1pbev5.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":3672499,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-po6kagr-shard-00-02.p1pbev5.mongodb.net:27017":{"$clusterTime":null,"address":"ac-po6kagr-shard-00-02.p1pbev5.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":3672499,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-hjlgwn-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongoServerSelectionError: getaddrinfo ENOTFOUND ac-po6kagr-shard-00-00.p1pbev5.mongodb.net\n    at Topology.selectServer (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\sdam\\topology.js:348:38)\n    at async executeOperationWithRetries (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:157:18)\n    at async executeOperation (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:83:16)\n    at async FindCursor._initialize (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:26)\n    at async FindCursor.cursorInit (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:620:27)\n    at async FindCursor.fetchBatch (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:654:13)\n    at async FindCursor.next (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:326:17)\n    at async [Symbol.asyncIterator] (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:254:34)\n    at async FindCursor.toArray (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:406:26)\n    at async model.Query._find (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\query.js:2473:14)"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Sending OAuth request with redirect URI: http://localhost:5000/api/youtube/callback"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError","stack":"JsonWebTokenError: invalid signature\n    at C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:149:29\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\express\\lib\\router\\index.js:346:12)"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 7 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_2d3b32089058423d9aea09306ae21414","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:462:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:490:7)","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_909d7a7ab39648608ccc824d3bb3fce7","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:462:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:490:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 9 comments, saved 2 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_33a41c425ff24154ac1a303511f24e93","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:327:26","status":429,"type":"insufficient_quota"}
+{"_message":"Comment validation failed","errors":{"videoId":{"kind":"required","message":"Path `videoId` is required.","name":"ValidatorError","path":"videoId","properties":{"message":"Path `videoId` is required.","path":"videoId","type":"required"}}},"level":"error","message":"Analyze comments error: Comment validation failed: videoId: Path `videoId` is required.","stack":"ValidationError: Comment validation failed: videoId: Path `videoId` is required.\n    at model.validate (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:336:9"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_9441b74f886a4b8599c801903d7c8eee","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:327:26","status":429,"type":"insufficient_quota"}
+{"_message":"Comment validation failed","errors":{"videoId":{"kind":"required","message":"Path `videoId` is required.","name":"ValidatorError","path":"videoId","properties":{"message":"Path `videoId` is required.","path":"videoId","type":"required"}}},"level":"error","message":"Analyze comments error: Comment validation failed: videoId: Path `videoId` is required.","stack":"ValidationError: Comment validation failed: videoId: Path `videoId` is required.\n    at model.validate (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:336:9"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_5c636ab98c0f40c6b1ae4e21d121c762","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:27:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:531:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:559:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 10 comments, saved 1 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 10 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 11 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 11 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"error","message":"Sync error in GET /api/comments/:videoId: commentData is not defined","stack":"ReferenceError: commentData is not defined\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:479:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_2fa823281ee640b7bb7bb190aba51965","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:65:22)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:460:26","status":429,"type":"insufficient_quota"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_0971a4dab9d5412e9c6fabbd833f06ef","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:65:22)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:460:26","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"AUTO-DELETE: Deleting high-confidence toxic comment: UgzjnEW4Ujfsq-xAKYV4AaABAg"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"Failed to auto-delete comment UgzjnEW4Ujfsq-xAKYV4AaABAg:"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_490c5854b12147ba8f3cbe1c052dbfdc","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:65:22)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:460:26","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":"insufficient_quota","error":{"code":"insufficient_quota","message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"type":"insufficient_quota"},"headers":{},"level":"error","message":"AI Classification error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","param":null,"requestID":"req_80c6ff2e047d4dec8455ad6bbba2940c","stack":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n    at APIError.generate (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/core/error.mjs:59:20)\n    at OpenAI.makeStatusError (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:255:32)\n    at OpenAI.makeRequest (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/node_modules/openai/client.mjs:446:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async classifyComment (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/aiService.mjs:65:22)\n    at async processComments (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:588:24)\n    at async Task._execution (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:616:7)","status":429,"type":"insufficient_quota"}
+{"level":"info","message":"Processed 16 comments, saved 1 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Processed 16 comments, saved 1 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"AUTO-DELETE: Deleting high-confidence toxic comment: UgyK1cJ0ny0pxINhfIB4AaABAg"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"Failed to auto-delete comment UgyK1cJ0ny0pxINhfIB4AaABAg:"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 16 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Processed 16 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778067820091,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"POST /api/comments/:id/action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Wed, 06 May 2026 11:44:04 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:560:7","status":400}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778067823157,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"POST /api/comments/:id/action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Wed, 06 May 2026 11:44:07 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:560:7","status":400}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Processed 16 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Processed 16 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Processed 16 comments, saved 0 new for channel: UCToFXVJ72EF6LPVXEDsyCKw"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: PU3sr6a7ZF1JnC7ZAAAB"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"New client connected: 3gjl7ig2o5oXBeEvAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"New client connected: lzDEA2HchqG6VHWeAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: xw7GijIRL9WPNBxMAAAD"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: NJxKZTtDeP8rCGJQAAAF"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: xNFxKajYNxd3NOSsAAAH"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"New client connected: ZWT11z_kOIO0qOndAAAJ"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: LN6vMVqty6nRSYcPAAAB"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: XWWipXzIr-W4tIK7AAAD"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"New client connected: RPujkmlr85y87_m1AAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: JKHrciC5EkOOKNtFAAAB"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: h7vV0DZWOX-ZhUQvAAAB"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Server running on port 5000"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: OiaGmYc6rQD5Nn7yAAAB"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: WrBQTj9lf_Vd9azFAAAB"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: Vb4GqON1HohyvMo-AAAD"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"New client connected: edGbOxmUCtYZU7xNAAAF"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: 2BZzAZKTJga5RhxJAAAH"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: Jo6Qk26CFz0U8W5sAAAJ"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: -Bvyg4cgiwngAKuQAAAL"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: gwqlfpFLl2O2aqQMAAAN"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: nRnsEW5vO6k-Q3LDAAAP"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: jNQ-RzkZTs0mRhzIAAAR"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: sBJLN1XRG8fmWsNEAAAU"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"0":"T","1":"h","10":"r","100":"s","101":"u","102":"a","103":"l","104":"l","105":"y","106":" ","107":"i","108":"n","109":"d","11":"v","110":"i","111":"c","112":"a","113":"t","114":"e","115":"s","116":" ","117":"t","118":"h","119":"a","12":"e","120":"t","121":" ","122":"t","123":"h","124":"e","125":" ","126":"r","127":"e","128":"q","129":"u","13":"r","130":"e","131":"s","132":"t","133":"'","134":"s","135":" ","136":"i","137":"n","138":"p","139":"u","14":" ","140":"t","141":" ","142":"i","143":"s","144":" ","145":"i","146":"n","147":"v","148":"a","149":"l","15":"f","150":"i","151":"d","152":".","16":"a","17":"i","18":"l","19":"e","2":"e","20":"d","21":" ","22":"t","23":"o","24":" ","25":"s","26":"u","27":"c","28":"c","29":"e","3":" ","30":"s","31":"s","32":"f","33":"u","34":"l","35":"l","36":"y","37":" ","38":"p","39":"r","4":"A","40":"o","41":"c","42":"e","43":"s","44":"s","45":" ","46":"t","47":"h","48":"e","49":" ","5":"P","50":"r","51":"e","52":"q","53":"u","54":"e","55":"s","56":"t","57":".","58":" ","59":"W","6":"I","60":"h","61":"i","62":"l","63":"e","64":" ","65":"t","66":"h","67":"i","68":"s","69":" ","7":" ","70":"c","71":"a","72":"n","73":" ","74":"b","75":"e","76":" ","77":"a","78":" ","79":"t","8":"s","80":"r","81":"a","82":"n","83":"s","84":"i","85":"e","86":"n","87":"t","88":" ","89":"e","9":"e","90":"r","91":"r","92":"o","93":"r","94":",","95":" ","96":"i","97":"t","98":" ","99":"u","level":"error","message":"YouTube delete failed for UgwORvSwYzWg6kvG68x4AaABAg:"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: O549a5D6Y3cP5tyaAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: BO0w8G5ZiyqBmMkpAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: F-Im1K2PiA_wnFxWAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: wGmkzzlHXXqzQxn5AAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: _GUOip9GEURgydbmAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: 7QuOP88KNETAKtOCAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: hUKM3cJtJ2n8H8tOAAAD"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: gASYmfIMhdKcuKegAAAF"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: u5FPtnzf89RJhIsAAAAH"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: YyInKfINi8h1qIEpAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: aECo-TIAYShTLNaCAAAE"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: bI34f7gDJSmFE_YWAAAG"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: rfEwBgXwQvywm1EQAAAI"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: d2cBELdbcMsfycKqAAAK"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: wX4Yjoo1pG_JjlnOAAAM"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"New client connected: ZA39hWiRUapYsrINAAAO"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: thQbLHM9M0yMQHPUAAAQ"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: Ui_0TM-4OeQ6u8sGAAAT"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Running background auto-moderation worker..."}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Background Moderating video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: VI_aIr-OOSPPmI19AAAB"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: 9OYj5d8Vyc8t7Ee-AAAB"}
+{"level":"info","message":"New client connected: Tb_MEeWDFWtbOgqdAAAE"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: aDzXq-HWArvcTVuCAAAH"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: 6Hgx6Boe17Z3Nb5cAAAK"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: UXxH21KXzLJM4nHvAAAN"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: Y3XRfpX39a-5B-OAAAAQ"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: GEmnN3ui8QP3-kcIAAAT"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: 7qzZ70_5rFiFRF5vAAAW"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: LnvWJB6BxicwRqC3AAAY"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: aP3FeYWdnApyWg_3AAAb"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: lj3DiUL7TMdNkCOQAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: -I-2suGJreMrgl45AAAD"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: ZOgxhUAxwhfo9xNAAAAB"}
+{"level":"info","message":"New client connected: ByxJbcPKz4dD36ojAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: jP2dZKlsPWRRXmjcAAAB"}
+{"level":"info","message":"New client connected: rtYkRstd_HimOSdfAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: mTPDxgGFxEsnJSShAAAG"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: gccFsXlsLVqlSlqvAAAJ"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: Rk6_30A5TaHW5_BKAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: p20g6oUMgShpUZ82AAAD"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: Ih7s1s1Z-SaL2S8nAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: gWM5AJBAs5wpptKGAAAD"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: aZHFkYtv7PjiIXZ0AAAC"}
+{"level":"info","message":"New client connected: 1_5-ktbi7ep70IP9AAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: KqZf8pAeabBhxbgtAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: OmN9be1n7r8BGqwmAAAD"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: KdL0cTSAydt0NbURAAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: WUsymwnvmxwvGVr2AAAD"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: w98kg4T9bBRPsU8_AAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"New client connected: aYFCwg-chvw9tPm6AAAD"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: OGDtnxYwGJqMvBs-AAAB"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"New client connected: mzFuEQtlWdG9wSy3AAAD"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: VbRKcFFQOPSWrCl8AAAF"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: oYjq1-FFi6tScV9lAAAH"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778149886975,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:31:52 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778149887610,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:31:53 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778149887864,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:31:53 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778149887879,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"Ugx25YSjktTGQHChK-x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:31:53 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=Ugx25YSjktTGQHChK-x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgyK1cJ0ny0pxINhfIB4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778150196603,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgyK1cJ0ny0pxINhfIB4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:37:01 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgxDo39GeW9SuexpUWh4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778150207380,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgxDo39GeW9SuexpUWh4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Action error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgxDo39GeW9SuexpUWh4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgxDo39GeW9SuexpUWh4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:37:12 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgxDo39GeW9SuexpUWh4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:638:9","status":400}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: PyUPKsqO7ZKrkwb8AAAB"}
+{"level":"info","message":"New client connected: QyjUBEC9BRRJcr7RAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: wePMxnFSeyzYrARDAAAG"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"error","message":"Action error: deleteCommentFromYouTube is not defined","stack":"ReferenceError: deleteCommentFromYouTube is not defined\n    at file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:637:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: tnrVTJukyxxfIT20AAAB"}
+{"level":"info","message":"New client connected: FRGGg8VPi9TuPIlnAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778150389137,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Error deleting comment UgwORvSwYzWg6kvG68x4AaABAg: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgwORvSwYzWg6kvG68x4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:40:14 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgwORvSwYzWg6kvG68x4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async deleteCommentFromYouTube (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/youtubeService.mjs:68:5)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:637:23","status":400}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: EUU5kcNyv9TYvcxpAAAB"}
+{"level":"info","message":"New client connected: l-VruhoMD0D5xxVDAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: wpn9X6CjdLMQVmu3AAAB"}
+{"level":"info","message":"New client connected: 6gzhpa4o8bpyfBatAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: BWFaSVqDObe6jy67AAAG"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Client disconnected"}
+{"level":"info","message":"New client connected: RIPZj4JcSAU3KCd_AAAJ"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Fetching latest comments from YouTube for video: JxBX6-QCtm8"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Moderation Request: Action=hide, ID=69fb2744c79adeebd8826c62"}
+{"level":"info","message":"Hid comment (held for review): UgyK1cJ0ny0pxINhfIB4AaABAg"}
+{"level":"info","message":"Moderation Success: hide on 69fb2744c79adeebd8826c62"}
+{"level":"info","message":"Moderation Request: Action=delete, ID=69fb2744c79adeebd8826c62"}
+{"code":400,"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgyK1cJ0ny0pxINhfIB4AaABAg"},"responseType":"unknown","retry":true,"retryConfig":{"currentRetryAttempt":0,"httpMethodsToRetry":["GET","HEAD","PUT","OPTIONS","DELETE"],"maxRetryDelay":9007199254740991,"noResponseRetries":2,"retry":3,"retryDelayMultiplier":2,"statusCodesToRetry":[[100,199],[408,408],[429,429],[500,599]],"timeOfFirstRequest":1778150830778,"totalTimeout":9007199254740991},"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"level":"error","message":"Error deleting comment UgyK1cJ0ny0pxINhfIB4AaABAg: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","response":{"config":{"headers":{"Accept-Encoding":"gzip","Authorization":"<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.","User-Agent":"google-api-nodejs-client/7.2.0 (gzip)","x-goog-api-client":"gdcl/7.2.0 gl-node/22.21.0"},"method":"DELETE","params":{"id":"UgyK1cJ0ny0pxINhfIB4AaABAg"},"responseType":"unknown","retry":true,"url":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg","userAgentDirectives":[{"comment":"gzip","product":"google-api-nodejs-client","version":"7.2.0"}]},"data":{"error":{"code":400,"errors":[{"domain":"youtube.comment","location":"id","locationType":"parameter","message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.","reason":"processingFailure"}],"message":"The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid."}},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","content-type":"application/json; charset=UTF-8","date":"Thu, 07 May 2026 10:47:36 GMT","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://youtube.googleapis.com/youtube/v3/comments?id=UgyK1cJ0ny0pxINhfIB4AaABAg"},"status":400,"statusText":"Bad Request"},"stack":"Error: The API server failed to successfully process the request. While this can be a transient error, it usually indicates that the request's input is invalid.\n    at Gaxios._request (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\gaxios\\build\\src\\gaxios.js:142:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async OAuth2Client.requestAsync (C:\\Users\\HP\\Downloads\\Project-Comments\\Project-Comments--main\\server\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:429:18)\n    at async deleteCommentFromYouTube (file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/services/youtubeService.mjs:68:5)\n    at async file:///C:/Users/HP/Downloads/Project-Comments/Project-Comments--main/server/index.mjs:654:19","status":400}
+{"level":"error","message":"YouTube API Action Failed: delete on UgyK1cJ0ny0pxINhfIB4AaABAg"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"📡 Allowed CORS origin: http://localhost:5174"}
+{"level":"info","message":"New client connected: _v4IAV26DioJKaNpAAAB"}
+{"level":"info","message":"New client connected: RaI_MhJ8406xkIBOAAAD"}
+{"level":"info","message":"MongoDB Connected Successfully"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}
+{"level":"info","message":"Cron: checking 1 channel(s) for new comments"}

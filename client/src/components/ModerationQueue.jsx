@@ -1,130 +1,269 @@
-import React from 'react';
-import axios from 'axios';
-import { CheckCircle2Icon, XCircleIcon, ShieldAlertIcon, UserIcon, ExternalLinkIcon, MessageSquareIcon } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import api from '../api';
+import { io } from 'socket.io-client';
+import { 
+  ThumbsUp, 
+  Trash2, 
+  ShieldCheck, 
+  ShieldAlert, 
+  Clock, 
+  ExternalLink,
+  Loader2,
+  Edit3,
+  CheckCircle2,
+  AlertTriangle,
+  XCircle
+} from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
+import { getSentimentConfig } from '../constants/sentimentColors';
 
-const API_BASE = 'http://localhost:3001/api';
+const ModerationQueue = ({ onAction, searchQuery }) => {
+  const [comments, setComments] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [editingId, setEditingId] = useState(null);
+  const [editForm, setEditForm] = useState({ sentiment: '', status: '', note: '' });
+  const [filter, setFilter] = useState('all');
 
-const ModerationQueue = ({ comments, fetchComments, loading }) => {
-  
+  useEffect(() => {
+    fetchComments();
+
+    const socket = io(import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000', {
+      transports: ['websocket', 'polling'],
+      reconnectionAttempts: 5,
+      reconnectionDelay: 2000,
+    });
+    socket.on('stats_updated', fetchComments);
+    socket.on('new_comment_analyzed', fetchComments);
+    
+    return () => socket.disconnect();
+  }, [filter]);
+
+  const fetchComments = async () => {
+    try {
+      const res = await api.get('/comments', {
+        params: {
+          sentiment: filter !== 'all' && ['positive', 'neutral', 'moderate', 'toxic'].includes(filter) ? filter : undefined,
+          status: filter === 'deleted' ? 'deleted' : (filter === 'liked' ? undefined : undefined),
+          autoLiked: filter === 'liked' ? true : undefined
+        }
+      });
+      setComments(res.data);
+    } catch (err) {
+      console.error('Fetch error:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleAction = async (id, action) => {
     try {
-      await axios.post(`${API_BASE}/comments/${id}/action`, { action });
+      await api.post(`/comments/${id}/action`, { action });
       fetchComments();
+      if (onAction) onAction();
     } catch (err) {
       console.error('Action failed:', err);
     }
   };
 
+  const startEdit = (comment) => {
+    setEditingId(comment._id);
+    setEditForm({
+      sentiment: comment.sentiment,
+      status: comment.status,
+      note: comment.note || ''
+    });
+  };
+
+  const saveEdit = async (id) => {
+    try {
+      await api.patch(`/comments/${id}/edit`, editForm);
+      setEditingId(null);
+      fetchComments();
+      if (onAction) onAction();
+    } catch (err) {
+      console.error('Update failed:', err);
+    }
+  };
+
   if (loading) return (
-    <div className="flex justify-center items-center h-64">
-      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-500"></div>
+    <div className="h-64 flex items-center justify-center">
+      <Loader2 className="animate-spin text-[#ff0000]" size={32} />
     </div>
   );
 
   return (
-    <div className="bg-slate-800/50 rounded-2xl border border-slate-700/50 overflow-hidden">
-      <div className="p-6 border-b border-slate-700/50 flex justify-between items-center bg-slate-800/30">
-        <h3 className="font-semibold text-lg flex items-center gap-2">
-          <ShieldAlertIcon className="text-red-400" size={20} />
-          Moderation Queue
-        </h3>
-        <div className="flex gap-2">
-          <button className="px-3 py-1 bg-slate-700 hover:bg-slate-600 rounded-lg text-xs font-medium">All</button>
-          <button className="px-3 py-1 bg-red-500/20 text-red-400 hover:bg-red-500/30 rounded-lg text-xs font-medium border border-red-500/20">Toxic</button>
-        </div>
+    <div className="flex flex-col gap-4">
+      {/* Filters Bar */}
+      <div className="flex items-center gap-2 p-4 bg-white border-b border-[#f0f0f0] overflow-x-auto no-scrollbar">
+        <span className="text-[11px] font-black uppercase text-[#909090] mr-2">Filter By:</span>
+        {[
+          { id: 'all', label: 'All Activity' },
+          { id: 'toxic', label: 'Toxic' },
+          { id: 'moderate', label: 'Moderate' },
+          { id: 'positive', label: 'Positive' },
+          { id: 'deleted', label: 'Auto-Deleted' },
+          { id: 'liked', label: 'Auto-Liked' }
+        ].map(f => (
+          <button
+            key={f.id}
+            onClick={() => { setFilter(f.id); setLoading(true); }}
+            className={`px-4 py-1.5 rounded-full text-[11px] font-bold transition-all border ${
+              filter === f.id 
+                ? 'bg-[#0f0f0f] text-white border-[#0f0f0f] shadow-md' 
+                : 'bg-[#f9f9f9] text-[#606060] border-[#e5e5e5] hover:bg-[#f0f0f0]'
+            }`}
+          >
+            {f.label}
+          </button>
+        ))}
       </div>
 
-      <div className="overflow-x-auto">
-        <table className="w-full text-left">
-          <thead className="bg-slate-900/50 text-slate-400 text-xs uppercase tracking-wider">
+      <div className="w-full overflow-x-auto custom-scroll">
+      <table className="modern-table">
+        <thead>
+          <tr>
+            <th className="min-w-[300px]">User & Comment</th>
+            <th>Sentiment</th>
+            <th>Confidence</th>
+            <th>Moderation Status</th>
+            <th>Video</th>
+            <th>Time</th>
+            <th className="text-right">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {comments.length === 0 ? (
             <tr>
-              <th className="px-6 py-4 font-semibold">Comment</th>
-              <th className="px-6 py-4 font-semibold">Analysis</th>
-              <th className="px-6 py-4 font-semibold text-right">Actions</th>
+              <td colSpan="7" className="text-center py-12 text-[#909090] font-medium italic">
+                No moderation logs found.
+              </td>
             </tr>
-          </thead>
-          <tbody className="divide-y divide-slate-700/50">
-            {comments.map((comment) => (
-              <tr key={comment._id} className="hover:bg-slate-700/20 transition-colors">
-                <td className="px-6 py-4">
-                  <div className="flex gap-4">
+          ) : (
+            comments
+              .filter(c => c.text.toLowerCase().includes((searchQuery || '').toLowerCase()) || c.author.toLowerCase().includes((searchQuery || '').toLowerCase()))
+              .map((comment) => (
+              <tr key={comment._id} className={`group transition-colors ${editingId === comment._id ? 'bg-[#fef2f2]/50' : ''}`}>
+                <td>
+                  <div className="flex items-start gap-4">
                     <img 
-                      src={comment.authorProfileImageUrl || 'https://via.placeholder.com/40'} 
-                      className="w-10 h-10 rounded-full border border-slate-700 flex-shrink-0"
-                      alt="" 
+                      src={comment.authorProfileImageUrl || `https://ui-avatars.com/api/?name=${comment.author}&background=f0f0f0&color=606060`} 
+                      className="w-10 h-10 rounded-full border border-[#f0f0f0] flex-shrink-0" 
+                      alt=""
                     />
-                    <div>
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="font-bold text-slate-100">{comment.author}</span>
-                        <span className="text-[10px] text-slate-500 font-medium">
-                          {formatDistanceToNow(new Date(comment.publishedAt), { addSuffix: true })}
-                        </span>
-                      </div>
-                      <p className="text-slate-300 text-sm leading-relaxed max-w-xl">{comment.text}</p>
+                    <div className="min-w-0">
+                      <p className="text-[13px] font-black text-[#0f0f0f]">@{comment.author}</p>
+                      <p className="text-[12px] text-[#222] mt-1 leading-relaxed">{comment.text}</p>
+                      {comment.note && (
+                        <p className="text-[10px] font-bold text-[#065fd4] mt-1 flex items-center gap-1">
+                          <Edit3 size={10} /> Note: {comment.note}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </td>
-                <td className="px-6 py-4">
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <div className={`w-2 h-2 rounded-full ${
-                        comment.sentiment === 'toxic' ? 'bg-red-500' : 
-                        comment.sentiment === 'positive' ? 'bg-green-500' : 'bg-slate-500'
-                      }`}></div>
-                      <span className="text-xs font-bold uppercase tracking-wider">{comment.sentiment}</span>
+                <td>
+                  {editingId === comment._id ? (
+                    <select 
+                      value={editForm.sentiment}
+                      onChange={(e) => setEditForm({...editForm, sentiment: e.target.value})}
+                      className="text-[11px] font-bold border rounded-lg px-2 py-1"
+                    >
+                      <option value="positive">Positive</option>
+                      <option value="neutral">Neutral</option>
+                      <option value="moderate">Moderate</option>
+                      <option value="toxic">Toxic</option>
+                    </select>
+                  ) : (
+                    <span className={`yt-badge ${getSentimentConfig(comment.sentiment).badgeClass}`}>
+                      {comment.sentiment}
+                    </span>
+                  )}
+                </td>
+                <td>
+                  <div className="flex items-center gap-3">
+                    <div className="w-16 h-1 bg-[#f0f0f0] rounded-full overflow-hidden">
+                      <div 
+                        className="h-full" 
+                        style={{ 
+                          width: `${(comment.confidence || 0.5) * 100}%`,
+                          backgroundColor: getSentimentConfig(comment.sentiment).color
+                        }}
+                      />
                     </div>
-                    {comment.toxicityScore > 0 && (
-                      <div className="w-24 h-1.5 bg-slate-700 rounded-full overflow-hidden">
-                        <div 
-                          className="h-full bg-red-500" 
-                          style={{ width: `${comment.toxicityScore * 100}%` }}
-                        ></div>
-                      </div>
+                    <span className="text-[11px] font-bold text-[#606060]">
+                      {Math.round((comment.confidence || 0) * 100)}%
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  {editingId === comment._id ? (
+                    <select 
+                      value={editForm.status}
+                      onChange={(e) => setEditForm({...editForm, status: e.target.value})}
+                      className="text-[11px] font-bold border rounded-lg px-2 py-1"
+                    >
+                      <option value="pending">Pending</option>
+                      <option value="approved">Approved</option>
+                      <option value="flagged">Flagged</option>
+                      <option value="deleted">Deleted</option>
+                    </select>
+                  ) : (
+                    <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-tight">
+                      {comment.status === 'deleted' ? (
+                        <><ShieldAlert size={14} className="text-[#d93025]" /> <span className="text-[#d93025]">Deleted</span></>
+                      ) : comment.status === 'approved' ? (
+                        <><CheckCircle2 size={14} className="text-[#2ba640]" /> <span className="text-[#2ba640]">Approved</span></>
+                      ) : comment.status === 'flagged' ? (
+                        <><AlertTriangle size={14} className="text-[#f9ab00]" /> <span className="text-[#f9ab00]">Review Req</span></>
+                      ) : (
+                        <><Clock size={14} className="text-[#909090]" /> <span className="text-[#909090]">Queued</span></>
+                      )}
+                    </div>
+                  )}
+                </td>
+                <td>
+                  <a href={`https://youtube.com/watch?v=${comment.videoId}`} target="_blank" className="p-2 hover:bg-[#f0f0f0] rounded-lg inline-block transition-colors">
+                    <ExternalLink size={14} className="text-[#065fd4]" />
+                  </a>
+                </td>
+                <td>
+                  <span className="text-[11px] font-bold text-[#909090]">
+                    {formatDistanceToNow(new Date(comment.publishedAt))}
+                  </span>
+                </td>
+                <td className="text-right">
+                  <div className="flex justify-end gap-2">
+                    {editingId === comment._id ? (
+                      <>
+                        <button onClick={() => saveEdit(comment._id)} className="p-2 bg-[#2ba640] text-white rounded-lg hover:bg-[#137333]"><CheckCircle2 size={16} /></button>
+                        <button onClick={() => setEditingId(null)} className="p-2 bg-[#f0f0f0] text-[#606060] rounded-lg"><XCircle size={16} /></button>
+                      </>
+                    ) : (
+                      <>
+                        <button onClick={() => handleAction(comment._id, 'approve')} className="p-2 hover:bg-[#e6f4ea] text-[#606060] hover:text-[#137333] rounded-lg border border-[#f0f0f0]" title="Approve & Publish"><ThumbsUp size={16} /></button>
+                        <button onClick={() => handleAction(comment._id, 'hide')} className="p-2 hover:bg-[#fff8e1] text-[#606060] hover:text-[#f9ab00] rounded-lg border border-[#f0f0f0]" title="Hide/Hold for Review"><ShieldAlert size={16} /></button>
+                        <button onClick={() => startEdit(comment)} className="p-2 hover:bg-[#f0f0f0] text-[#606060] rounded-lg border border-[#f0f0f0]" title="Edit Details"><Edit3 size={16} /></button>
+                        <button onClick={() => handleAction(comment._id, 'delete')} className="p-2 hover:bg-[#fce8e6] text-[#606060] hover:text-[#c5221f] rounded-lg border border-[#f0f0f0]" title="Permanently Delete"><Trash2 size={16} /></button>
+                      </>
                     )}
                   </div>
-                </td>
-                <td className="px-6 py-4 text-right">
-                  <div className="flex justify-end gap-2">
-                    <button 
-                      onClick={() => handleAction(comment._id, 'approve')}
-                      className="p-2 hover:bg-green-500/10 text-slate-400 hover:text-green-400 rounded-lg transition-colors border border-transparent hover:border-green-500/20"
-                      title="Approve"
-                    >
-                      <CheckCircle2Icon size={20} />
-                    </button>
-                    <button 
-                      onClick={() => handleAction(comment._id, 'delete')}
-                      className="p-2 hover:bg-red-500/10 text-slate-400 hover:text-red-400 rounded-lg transition-colors border border-transparent hover:border-red-500/20"
-                      title="Delete"
-                    >
-                      <XCircleIcon size={20} />
-                    </button>
-                    <a 
-                      href={`https://www.youtube.com/watch?v=${comment.videoId}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 hover:bg-indigo-500/10 text-slate-400 hover:text-indigo-400 rounded-lg transition-colors border border-transparent hover:border-indigo-500/20"
-                      title="View Video"
-                    >
-                      <ExternalLinkIcon size={20} />
-                    </a>
-                  </div>
+                  {editingId === comment._id && (
+                    <div className="mt-2">
+                      <input 
+                        type="text" 
+                        placeholder="Add note..."
+                        value={editForm.note}
+                        onChange={(e) => setEditForm({...editForm, note: e.target.value})}
+                        className="text-[10px] w-full border rounded p-1"
+                      />
+                    </div>
+                  )}
                 </td>
               </tr>
-            ))}
-            {comments.length === 0 && (
-              <tr>
-                <td colSpan="3" className="px-6 py-20 text-center text-slate-500">
-                  <div className="flex flex-col items-center gap-4">
-                    <MessageSquareIcon size={48} className="opacity-20" />
-                    <p>No comments in the queue.</p>
-                  </div>
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
+            ))
+          )}
+        </tbody>
+      </table>
       </div>
     </div>
   );
